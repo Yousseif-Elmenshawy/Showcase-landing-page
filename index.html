@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="نماذج من أعمال مشابهة لتصميم Landing Pages.">
+  <title>أعمال مشابهة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <span class="eyebrow">PROJECT PREVIEW</span>
+      <h1>أعمال <span>مشابهة</span></h1>
+      <p>مجموعة من نماذج تصميم صفحات الهبوط التي توضح أسلوب التصميم وجودة التنفيذ.</p>
+    </header>
+
+    <section class="work-grid" id="workGrid" aria-label="نماذج الأعمال">
+      <!-- يتم إنشاء بطاقات الصور تلقائياً من قائمة projects داخل app.js -->
+    </section>
+
+    <footer class="page-footer">
+      <span>© 2026 — Yousseif Elshenawy</span>
+      <span>Landing Page Design Samples</span>
+    </footer>
+  </main>
+
+  <div class="viewer" id="viewer" aria-hidden="true">
+    <button class="viewer-close" id="viewerClose" aria-label="إغلاق">×</button>
+    <button class="viewer-nav viewer-prev" id="viewerPrev" aria-label="الصورة السابقة">‹</button>
+    <img id="viewerImage" src="" alt="معاينة العمل">
+    <button class="viewer-nav viewer-next" id="viewerNext" aria-label="الصورة التالية">›</button>
+    <div class="viewer-caption" id="viewerCaption"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
